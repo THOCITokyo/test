@@ -1,0 +1,128 @@
+h1
+{
+    text-align: center;
+}
+.space01
+{
+    margin: 0px 10px;
+    color: red
+}
+.space02
+{
+    border: solid black;
+    padding: 2px;
+}
+.space03
+{
+    margin: 2em;
+}
+.space04
+{
+    text-indent: 3em
+}
+.carre
+{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+}
+.rectangle
+{
+    height: 50px;
+    width: 10%;
+    background-color: orange;
+}
+.div-mother-width
+{
+    width: 50px;
+    border: 1px solder black;
+}
+.color-red
+{
+    color:red;
+}
+.text-center
+{
+    text-align: center;
+}
+.margin-div
+{
+    margin-top: 10px;
+}
+p
+{
+    line-height: 20px;
+}
+.rectangle-viewporte
+{
+    height: 50px;
+    width: 50vw;
+    background-color: orange;
+}
+.b-radiuse
+{
+    border-radius: 25%;
+}
+.b-circul
+{
+    border-radius: 50%;
+}
+.scarre-abs
+{
+    position: absolute;
+    top: 200px;
+    right: 50%;
+}
+.div-mother-relativ
+{
+    width: 50%;
+    border: 1px solid black;
+}
+.position-relative
+{
+    bottom: 13px;
+    right: 12px;
+}
+.circul-relativ
+{
+    position:relative;
+    bottom:-13px;
+    right: 12px;
+}
+.circul-relativ02
+{
+    position:relative;
+    right:50%;
+    left:calc(50% - 25px);
+}
+.menu
+{
+    background-color:brown;
+    height: 75px;
+    position: sticky;
+    top: 0%;
+}
+.deep
+{
+    z-index: -1;
+}
+.transform-carre-translation
+{
+    transform:trasnlate(10px);
+}
+.transform-carre-rotation
+{
+    transform:rotate(35deg);
+}
+/*
+1) margin: 1px (touts les côté seront de 1px)
+2) margin: 2px (verticale) 1px (horizontale) 
+3) margin: 3px (vers le haut) 2px (horizontale) 1px (vers le bas)
+4) margin: 4px (vers le haut) 3px (vers la droite) 2px (vers le bas) 1px (vers la gauche)
+
+    margin:left
+    margin:right
+    margin:top
+    margin:botom
+    margin:initial
+*/

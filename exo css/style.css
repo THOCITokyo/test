@@ -1,0 +1,112 @@
+body
+{
+    background-color: bisque;
+}
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1::first-letter
+{
+    color:red;
+}
+p::first-letter
+{
+    color:red;
+    font-size: 130%;
+}
+h3
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.space02
+{
+    margin: 0px 20px;
+    text-decoration: red wavy underline;
+}
+.carre
+{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+}
+.menu
+{
+    background-color:brown;
+    height: 75px;
+    position: sticky;
+    top: 0%;
+    border-top-right-radius: 25%;
+    margin: 10px;
+}
+.email
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.password
+{
+    text-align:center;
+    margin-bottom: 10px;
+}
+.bottom
+{
+    
+}
+.rectangle1
+{
+    height: 50px;
+    width: 50%;
+    background-color: red;
+    margin: 10px;
+}
+.rectangle2
+{
+    height: 50px;
+    width: 75%;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 75%;
+}
+.rectangle3
+{
+    height: 50px;
+    width: 10%;
+    background-color: green;
+    margin: 10px;
+}
+.rectangle4
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    border-radius: 1px;
+}
+.rectangle4
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.egal 
+{
+    font-size: 3em;
+    position: absolute;
+    right: 25vw;
+    transform: rotate(45deg);
+}
+.egal::after
+{
+    content: ">"
+}
+.rond
+{
+    
+}
