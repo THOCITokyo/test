@@ -29,6 +29,22 @@ h3
 }
 .carre
 {
+    
+}
+.carre1
+{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+}
+.carre2
+{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+}
+.carre3
+{
     height: 50px;
     width: 50px;
     background-color:black;
