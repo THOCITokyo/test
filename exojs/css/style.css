@@ -1,0 +1,86 @@
+/*
+h1
+{
+ text-decoration: underline;
+ text-align: center;
+ margin-bottom: 10%;
+}
+.nav
+{
+    height: 75px;
+    width: 99%;
+    background-color: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+#menu
+{
+    margin-right:25%;
+}
+#produit
+{
+   
+}
+#contact
+{
+    margin-left:25%;
+}
+nav
+{
+    margin: 10px;
+}
+.div1
+{
+    margin: 15%;
+    display:flex;
+    justify-content: center;
+}
+.div2
+{
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.sousdiv2
+{
+    margin: 10px;
+}
+.div3
+{
+    border: 2px dashed red;
+}
+.sousdiv3
+{
+    margin: 10px;
+}
+*/
+.list-navigation{
+    list-style : none;
+}
+.center
+{
+    text-align: center;
+}
+.div-article{
+    border: 1px solid black;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div-article :nth-child(4){
+    color: blue;
+}
+.div-second-article
+{
+    border: 1px dashed red;
+}
+.div-second-article{
+    border: 1px dashed red;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div-second-article :nth-child(5){
+    color: red;
+}

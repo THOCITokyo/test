@@ -270,3 +270,108 @@ console.log (mySecondArray);
 
 let banane = "Une banane";
 console.log (banane [5]);
+
+//  Les objets
+
+var voiture = 
+{
+    marque: "Renault",
+    annee: "2005",
+    puissance:  125,
+    afficher: function()
+    {
+        console.log ("Cette voiture est une " + this.marque + ", de l'année " + this.annee + ", elle à " + this.puissance + "chevaux.");
+    },
+}
+
+voiture.afficher();
+console.log (voiture.marque);
+console.log (voiture.annee);
+console.log (voiture.puissance);
+
+//  Les boucles
+
+var iteration = 0;
+while (iteration < 7)
+{
+    console.log (iteration)
+    iteration ++ // ont peut aussi écrire iteration +=2 ou encore iteration = iteration + 1
+}
+
+//  Boucle for (for loop)
+
+for (let i = 0; i < 12; i ++)
+{
+	console.log(i);
+}
+
+//  for (let index = 0; index < array.length; index++) {
+//  const element = array[index];
+//  for séléctionner le 2 ème qui ce nomme for et tout a droit de ce for il y a écris for loop et la formule est spawn il reste plus que à renseigner nos données
+
+
+for (let j = 0; j < mySecondArray.length; j ++)
+{
+	console.log(mySecondArray[j]);
+}
+
+//  BoucleDo
+let boucleDo = 5;
+
+do {
+  console.log(boucleDo);
+  boucleDo++;
+} while (boucleDo < 5);
+
+let iterationBreak = 0;
+
+while(iterationBreak < 80){
+  iterationBreak++;
+  console.log(iterationBreak);
+  iterationBreak++;
+  if(iterationBreak < 47){
+    break;
+  }
+}
+
+console.log (iterationBreak);
+
+function factorielle (nbr)
+{
+    var factorielle = 1;
+    for ( let k = 1; k <= nbr; k ++)
+    {
+        factorielle *= k;
+    }
+    console.log (factorielle);
+}
+
+function factor (nbr)
+{
+    if (nbr === 0)
+    {
+        return 1;
+    }
+    return nbr * factor (nbr - 1);
+}
+
+console.log ( factor (4));
+
+var tableauA = ["Jeannette", "Alphonse", "ludwig"];
+var tableauB = ["Paul", "Frédéric", "Jacques", "Roger"];
+
+function tab (tableauA, tableauB)
+{
+    if (tableauA.length === tableauB.length)
+    {
+        for (let index = 0; index < tableauB.length; index ++)  //  code pour concaténer
+        {
+            console.log (tableauA[index] + ' ' + tableauB[index])
+        }
+    }
+    else
+    {
+        console.log ("Les tableaux n'ont pas la même taille.")
+    }
+}
+tab(tableauA, tableauB)
