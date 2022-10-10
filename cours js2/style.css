@@ -1,0 +1,30 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+
+
+}
+.bouttonimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+
+}
