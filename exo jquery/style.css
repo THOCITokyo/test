@@ -1,0 +1,53 @@
+h1
+{
+    text-align:center;
+    text-decoration:underline red;
+}
+.tout
+{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+#firstName
+{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+    background-color:gray;
+    color:white;
+    border-color:black;
+}
+#name
+{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+    background-color:gray;
+    color:white;
+    border-color:black;
+}
+#mean
+{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+    background-color:gray;
+    color:white;
+    border-color:black;
+}
+#btn
+{
+    display:block;
+    margin:auto;
+    border-radius:25px;
+    background-color:black;
+    color:white;
+    width:100px;
+    height:35px;   
+    border-color:white; 
+}
+body
+{
+    text-align:center;
+}

@@ -28,7 +28,7 @@ $(document).ready(function()
     // document.write(chaine+"<br>");
     // document.write(chaine.toUpperCase());
 
-    // met le text en majuscule ^
+    // met le text en majuscule ^ en javaScript mais pas en jquery
 
     // $("#list").append("<li>Paul</li>");
 
